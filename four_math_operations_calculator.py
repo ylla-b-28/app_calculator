@@ -18,6 +18,13 @@ class AppCalculator:
     def start_application(self):
         print("Application is starting...")
 
+    def get_valid_number(self, prompt_text):
+        while True:
+            try:
+                return float(input(prompt))
+            except ValueError:
+                print("Error: Please enter a numeric value.")
+
 if __name__ == "__main__":
     main_app = AppCalculator()
     main_app.start_application()
