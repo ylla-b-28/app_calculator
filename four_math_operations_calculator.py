@@ -24,21 +24,35 @@ class AppCalculator(MathOperationsCalculator):
 
     def start_application(self):
         print("Application is starting...")
-       while True:
+        while True:
             print("\nSelect: 1. Add | 2. Subtract | 3. Multiply | 4. Divide")
             user_choice = input("Your choice: ")
 
-            first_value = float(input("Enter first number: "))
-            second_value = float(input("Enter second number: "))
+            if user_choice in ['1', '2', '3', '4']:
+               first_value = float(input("Enter first number: "))
+               second_value = float(input("Enter second number: "))
 
-            if user_choice == '1':
-               result = self.add_numbers(first_value, second_value)
-               print(f"Result: {result}")
+               try:
+                  if user_choice == '1':
+                  result = self.add_numbers(first_value, second_value)
+                  elif user_choice == '2':
+                  result = self.subtract_numbers(first_value, second_value)
+                  elif user_choice == '3':
+                  result = self.multiply_numbers(first_value, second_value)
+                  elif user_choice == '4':
+                  result = self.divide_numbers(first_value, second_value)
 
-               repeat = input("Try again? (Yes/No): ").lower()
-            if repeat != 'Yes':
-               print("\nThank you for using the calculator!")
-               break
+                  print(f"Result: {result}")
+            except ZeroDivisionError as error:
+                  print(error)
+
+        else:
+            print("Invalid choice, please select 1-4.")
+
+        repeat = input("Try again? (Yes/No): ").lower()
+        if repeat != 'Yes':
+           print("\nThank you for using the calculator!")
+           break
 
 if __name__ == "__main__":
     main_app = AppCalculator()
