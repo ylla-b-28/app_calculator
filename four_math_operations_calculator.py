@@ -1,4 +1,4 @@
-import sys
+
 class MathOperationsCalculator:
 
     def add_numbers(self, first_number, second_number):

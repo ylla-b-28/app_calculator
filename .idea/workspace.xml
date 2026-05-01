@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61fba744-b379-4739-9fce-df20eb9b7b26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/four_math_operations_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61fba744-b379-4739-9fce-df20eb9b7b26" name="Changes" comment="I finalized the design and fixed some errors.">
+      <change beforePath="$PROJECT_DIR$/four_math_operations_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_math_operations_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.four_math_operations_calculator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -66,6 +66,127 @@
       <option name="presentableId" value="Default" />
       <updated>1777651132390</updated>
     </task>
+    <task id="LOCAL-00001" summary="I created a Python file and added comments.">
+      <option name="closed" value="true" />
+      <created>1777654079496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777654079496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I added the variable names.">
+      <option name="closed" value="true" />
+      <created>1777654298396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777654298396</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I added the math operations.">
+      <option name="closed" value="true" />
+      <created>1777654363825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777654363825</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I added fixed the indentation errors.">
+      <option name="closed" value="true" />
+      <created>1777655455414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777655455414</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I added exception in division operation.">
+      <option name="closed" value="true" />
+      <created>1777655731796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777655731796</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I added another exception handling for invalid input.">
+      <option name="closed" value="true" />
+      <created>1777657142743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777657142743</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I fixed the major errors and incorrect variable names.">
+      <option name="closed" value="true" />
+      <created>1777657551823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777657551823</updated>
+    </task>
+    <task id="LOCAL-00008" summary="I fixed the results display using inherited methods.">
+      <option name="closed" value="true" />
+      <created>1777657991183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777657991183</updated>
+    </task>
+    <task id="LOCAL-00009" summary="I fixed the indention of results.">
+      <option name="closed" value="true" />
+      <created>1777658068276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777658068276</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I prevented the crashes on non-numeric input">
+      <option name="closed" value="true" />
+      <created>1777658260313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777658260313</updated>
+    </task>
+    <task id="LOCAL-00011" summary="I fixed the indention errors again.">
+      <option name="closed" value="true" />
+      <created>1777658412011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777658412011</updated>
+    </task>
+    <task id="LOCAL-00012" summary="The calculator started to work properly after fixing indention errors again.">
+      <option name="closed" value="true" />
+      <created>1777658544207</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777658544207</updated>
+    </task>
+    <task id="LOCAL-00013" summary="I finalized the design and fixed some errors.">
+      <option name="closed" value="true" />
+      <created>1777668300650</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777668300650</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I created a Python file and added comments." />
+    <MESSAGE value="I added the variable names." />
+    <MESSAGE value="I added the math operations." />
+    <MESSAGE value="I added fixed the indentation errors." />
+    <MESSAGE value="I added exception in division operation." />
+    <MESSAGE value="I added another exception handling for invalid input." />
+    <MESSAGE value="I fixed the major errors and incorrect variable names." />
+    <MESSAGE value="I fixed the results display using inherited methods." />
+    <MESSAGE value="I fixed the indention of results." />
+    <MESSAGE value="I prevented the crashes on non-numeric input" />
+    <MESSAGE value="I fixed the indention errors again." />
+    <MESSAGE value="The calculator started to work properly after fixing indention errors again." />
+    <MESSAGE value="I finalized the design and fixed some errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="I finalized the design and fixed some errors." />
   </component>
 </project>
