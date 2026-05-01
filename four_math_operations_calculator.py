@@ -29,8 +29,8 @@ class AppCalculator(MathOperationsCalculator):
             user_choice = input("Your choice: ")
 
             if user_choice in ['1', '2', '3', '4']:
-               first_value = float(input("Enter first number: "))
-               second_value = float(input("Enter second number: "))
+               first_value = self.get_valid_number("Enter first number: ")
+               second_value = self.get_valid_number("Enter second number: ")
 
                try:
                   if user_choice == '1':
