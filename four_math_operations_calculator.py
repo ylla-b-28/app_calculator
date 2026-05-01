@@ -47,13 +47,14 @@ class AppCalculator(MathOperationsCalculator):
                except ZeroDivisionError as error:
                    print(error)
 
-        else:
-            print("Invalid choice, please select 1-4.")
+            else:
+               print("Invalid choice, please select 1-4.")
 
-        repeat = input("Try again? (Yes/No): ").lower()
-        if repeat != 'Yes':
-           print("\nThank you for using the calculator!")
-           break
+            repeat = input("Try again? (Yes/No): ").lower()
+
+            if repeat != 'Yes':
+               print("\nThank you for using the calculator!")
+               break
 
 if __name__ == "__main__":
     main_app = AppCalculator()
