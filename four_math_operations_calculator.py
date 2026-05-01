@@ -10,11 +10,17 @@ class MathOperationsCalculator:
        return first_number * second_number
 
     def divide_numbers(self, first_number, second_number):
-       return first_number / second_number
+        if second_number == 0:
+            raise ZeroDivisionError("Cannot divide by zero.")
+        return first_number / second_number
 
 class AppCalculator:
     def start_application(self):
         print("Application is starting...")
+
+if __name__ == "__main__":
+    main_app = AppCalculator()
+    main_app.start_application()
 
 def start_application(self):
     while True:
@@ -32,3 +38,4 @@ def start_application(self):
         if repeat != 'Yes':
             print("\nThank you for using the calculator!")
             break
+
