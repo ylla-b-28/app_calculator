@@ -1,3 +1,4 @@
+import sys
 class MathOperationsCalculator:
 
     def add_numbers(self, first_number, second_number):
@@ -11,7 +12,7 @@ class MathOperationsCalculator:
 
     def divide_numbers(self, first_number, second_number):
         if second_number == 0:
-            raise ZeroDivisionError("Cannot divide by zero.")
+            raise ZeroDivisionError("✧ Mathematical Error: Cannot divide by zero. ✧")
         return first_number / second_number
 
 class AppCalculator(MathOperationsCalculator):
@@ -20,17 +21,26 @@ class AppCalculator(MathOperationsCalculator):
             try:
                 return float(input(prompt_text))
             except ValueError:
-                print("Error: Please enter a numeric value.")
+                print("₊˚ Input Error: Please enter a valid numeric value. ˚₊")
 
     def start_application(self):
-        print("Application is starting...")
+        print("\n⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆")
+        print("")
+        print("  APP CALCULATOR")
+        print("\n⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆")
+
         while True:
-            print("\nSelect: 1. Add | 2. Subtract | 3. Multiply | 4. Divide")
-            user_choice = input("Your choice: ")
+            print("\n   ₊˚ ✧ ━━━━⊱ (1) Addition")
+            print("   ₊˚ ✧ ━━━━⊱ (2) Subtraction")
+            print("   ₊˚ ✧ ━━━━⊱ (3) Multiplication")
+            print("   ₊˚ ✧ ━━━━⊱ (4) Division")
+
+            print("\n₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+            user_choice = input("₊˚✧ Please select an operation (1-4): ")
 
             if user_choice in ['1', '2', '3', '4']:
-               first_value = self.get_valid_number("Enter first number: ")
-               second_value = self.get_valid_number("Enter second number: ")
+               first_value = self.get_valid_number("₊˚✧ Enter first number: ")
+               second_value = self.get_valid_number("₊˚✧ Enter second number: ")
 
                try:
                    if user_choice == '1':
@@ -42,18 +52,21 @@ class AppCalculator(MathOperationsCalculator):
                    elif user_choice == '4':
                       result = self.divide_numbers(first_value, second_value)
 
-                   print(f"Result: {result}")
+                   print(f"\n ⋆｡°✩ RESULT: {result} ✩°｡⋆ ")
 
                except ZeroDivisionError as error:
-                   print(error)
+                   print(f"   {error}")
 
             else:
-               print("Invalid choice, please select 1-4.")
+               print("   ✧ Error: Please select a valid option (1-4). ✧")
 
-            repeat = input("Try again? (Yes/No): ").lower()
+            print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
 
-            if repeat != 'Yes':
-               print("\nThank you for using the calculator!")
+            repeat = input(".˳·˖✶ Would you like to try again? (y/n) ").lower()
+
+            if repeat != 'y' and repeat != 'yes':
+               print("\n°˖✧ Thank you for using the calculator! Have a lovely day. ✧˖°")
+               print("⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\n")
                break
 
 if __name__ == "__main__":
