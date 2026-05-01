@@ -34,13 +34,13 @@ class AppCalculator(MathOperationsCalculator):
 
                try:
                   if user_choice == '1':
-                  result = self.add_numbers(first_value, second_value)
+                     result = self.add_numbers(first_value, second_value)
                   elif user_choice == '2':
-                  result = self.subtract_numbers(first_value, second_value)
+                     result = self.subtract_numbers(first_value, second_value)
                   elif user_choice == '3':
-                  result = self.multiply_numbers(first_value, second_value)
+                     result = self.multiply_numbers(first_value, second_value)
                   elif user_choice == '4':
-                  result = self.divide_numbers(first_value, second_value)
+                     result = self.divide_numbers(first_value, second_value)
 
                   print(f"Result: {result}")
             except ZeroDivisionError as error:
